@@ -31,13 +31,23 @@ html {
     padding-right: 100px;
   }
   .navbar{
-    background-color: #021246;
-    color: #fff !important;
+    /* background-color: #0B2447; */
+        background-color: white;
+    color:#0B2447 !important;
     border-top: 4px solid rgb(46, 96, 146);
     border-bottom: 2px solid rgb(46, 96, 146);
   }
   .nav-item a{
-    color: #fff !important;
+    color: #0B2447 !important;
+  }
+  .nav-item a:hover{
+    border-bottom: 2px solid #a96700;
+    padding-bottom: 4px;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    background-color:rgb(155, 233, 243);
+    color: #19376D !important;
+    font-weight: 700 !important;
   }
   .nav-item {
     padding-left: 10px;
@@ -49,12 +59,24 @@ html {
   #navbar button{
     color: #fff !important;
   }
-
-
+/* ==============END OF NAVBAR ================ */
 
 
 
   /*=============== Main Section============== */
+  #features {
+	  background-color:rgb(71, 65, 65);
+	  margin-top: 100px;
+	  padding: 100px 0;
+    color: darkslategray !important;
+  }
+  .carousel-item {
+	  padding: 7% 15%;
+  }
+  .carousel-item h4 {
+	  font-size: 2rem;
+    color: rgb(235, 245, 245);
+  }
   .one{
     padding-bottom: 50px;
   }
@@ -65,7 +87,7 @@ html {
 	  background-color: white;
 	  background-size: cover;
 	  height: fit-content;
-    background-color: #021246;
+    background-color: #0B2447;
     color: #fff !important;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -79,7 +101,7 @@ html {
   .header-info {
    font-size: 4rem;
    font-weight: 400;
-   background-image: linear-gradient(to right, #0836b6, #5cb1e2, blue);
+   background-image: linear-gradient(to right, #009FBD, white,#009FBD);
    color: transparent;
    background-clip: text;
    -webkit-background-clip: text;
@@ -99,25 +121,24 @@ html {
     letter-spacing: 1.5px;
     font-size: 18px;
     background-color:white;
-    color: rgb(3, 12, 87) !important;
+    color: #19376D !important;
     font-weight: 700 !important;
 }
 .btn:hover{
-  color: rgb(4, 61, 65) !important;
-  /* background-color: rgb(188, 190, 15); */
+  color: 576CBC !important;
   border-bottom:3px solid rgb(165, 10, 31);
   font-weight: 300px;
 }
   
 
-/* Image section of the main */
+/* ==============Image section of the main================ */
 .Phone1 {
-position: relative;
-width: 400px; 
-height: 500px;
-margin-top: 50px;
-transform: rotate(-5deg) skew(6deg) scale(0.8);
-transition: 0.5s;
+border-radius: 36px;
+box-shadow: 5px 5px 5px rgba(66,55,55, .79),
+           -7px -7px 6px #625A5A;
+filter: FlipH;
+-ms-filter: "FlipH";
+transform: rotate(10deg);
 
 max-width: 65%;
 height: auto;
@@ -139,24 +160,6 @@ box-shadow: 0px 10px 50px rgba(0,0,0,0.8);
 }
 /* =============END OF SECTION STYLING ============== */
  
-
-/*============= Features ==========*/
-  #features {
-	  background-color:rgb(71, 65, 65);
-	  margin-top: 100px;
-	  padding: 100px 0;
-    color: darkslategray !important;
-  }
-  .carousel-item {
-	  padding: 7% 15%;
-  }
-  .carousel-item h4 {
-	  font-size: 2rem;
-    color: rgb(235, 245, 245);
-  }
-  /* #myCarousel{
-    /* background-color: rgb(58, 63, 63); */
-
 
 /*========= products============ */
 #Work{
