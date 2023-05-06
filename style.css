@@ -230,6 +230,13 @@ footer .social-media .links a {
 .google_play:hover h6 , .google_play:hover h4{
   color:white;
   transition:0.5s;
+  text-decoration: none !;
+}
+
+#playstore:hover{
+  color:white;
+  transition:0.5s;
+  text-decoration: none !important;
 }
 
 .google_play:hover img{
