@@ -245,11 +245,15 @@ footer .social-media .links a {
     #main {
       height: 800px;
      padding-bottom: 0;
-     padding-top: 20px;
+     padding-top: 5px;
     }
+.UN{
+  padding-top: 3px;
+  padding-bottom: 2px;
+}
 	  .iphone-mock {
-		  height: 200px;
-      width: 200px;
+		  height: 350px;
+      width: 250px;
       display: block;
       transform: rotate(20deg);
 	  }
@@ -277,8 +281,8 @@ footer .social-media .links a {
 		  height: 100px;
 	  }
     .deku{
-      width: 200px;
-      height: 350px;
+      width: 230px;
+      height: 230px;
       padding: 0;
     }
     .carousel-item h4 {
